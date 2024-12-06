@@ -13,7 +13,9 @@ Here's an overview of the hardware setup:
 | --------- | --------- | ------------- |
 | cRIO-9049 | 1         | cRIO Controller (other cRIO controllers which support DAQmx will also work)  |
 | NI-9244   | 1         | Voltage (PT) Input    |
-| NI-9238   | 1         | Split core CT or Rogowski coil input |
+| NI-9238   | 1         | Split core CT or Rogowski coil input* |
+
+*Rogowski coils require a hardware integrator. This is typically offered with the coil. The integration can also be performed in software, but this demo does not do that.
 
 ### cDAQ Three-Phase Power Simulator
 
@@ -32,6 +34,7 @@ Here's an overview of the hardware setup:
 | NI-9263 slot 2 AO 0   | NI-9238 AI 0  |
 | NI-9263 slot 2 AO 1   | NI-9238 AI 1  |
 | NI-9263 slot 2 AO 2   | NI-9238 AI 2  |
+| cDAQ ground           | cRIO ground   |
 
 ## Software Setup
 
