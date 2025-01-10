@@ -42,7 +42,7 @@ Software should work with newer versions of these dependencies. Unless otherwise
 
 Software dependencies:
 
-- LabVIEW 2024 Q3 64-bit
+- LabVIEW 2024 Q3 32-bit
 - LabVIEW Real-Time Module 2024 Q3
 - LabVIEW Electrical Power Toolkit 2023 Q3
 - NI DAQmx 2024 Q4
@@ -77,7 +77,7 @@ Make sure to set the programming mode of the cRIO modules (NI-9244 and NI-9238) 
 ### cRIO Power Monitor VI
 
 - Open the LabVIEW project for the power monitor. This can be found in the demo\source\ directory of the repo.
-- Connect to your cRIO target. 
+- Connect to your cRIO target.  
 - Open the *data-center-monitor-compare-power-rate* VI.
 - On the *Settings* tab, configure the voltage and current channels to match to module names in your system. You should not need to change any other settings on this tab.  
 ![Settings](images/settings-tab-1.png)
